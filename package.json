@@ -1,0 +1,49 @@
+{
+  "name": "next-exchange-nodejs-wallet",
+  "version": "1.0.0",
+  "description": "Wallet server for Next Exchange in Node.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "pm2 start ecosystem.config.js",
+    "stop": "pm2 stop ecosystem.config.js",
+    "restart": "pm2 restart NEXT_Exchange"
+  },
+  "dependencies": {
+    "bip39": "^2.5.0",
+    "bitcore-lib": "^0.15.0",
+    "body-parser": "^1.13.2",
+    "cors": "^2.8.1",
+    "ethereumjs-tx": "^1.3.3",
+    "express": "^4.13.0",
+    "express-jwt": "^3.0.1",
+    "human-standard-token-abi": "^2.0.0",
+    "iota-generate-seed": "^1.0.0",
+    "iota.lib.js": "^0.4.7",
+    "jsonschema": "^1.2.4",
+    "litecore-lib": "^0.13.22",
+    "lodash": "4.17.11",
+    "museblockchain-js": "git://github.com/themuseblockchain/Muse-JS.git",
+    "mysql": "^2.15.0",
+    "nem-sdk": "^1.6.4",
+    "nodemailer": "^4.6.8",
+    "nodemailer-mailgun-transport": "^1.4.0",
+    "nodemon": "^1.19.1",
+    "pm2": "^3.3.1",
+    "pug": "^2.0.3",
+    "q": "^1.4.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "ripple-lib": "^1.1.2",
+    "rootpath": "^0.1.2",
+    "save": "^2.4.0",
+    "web3": "^1.0.0-beta.48",
+    "web3-eth": "^1.0.0-beta.34"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "dpos-api-wrapper": "^1.3.2"
+  }
+}

@@ -1,0 +1,18 @@
+body {
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: #00B7FF;
+}
+.red {
+	color: red !important;
+}
+.green {
+	color: #3ac13a !important;
+}
+
+.node-status-container li{
+	margin: 10px 0;
+}

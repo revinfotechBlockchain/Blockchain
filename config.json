@@ -1,0 +1,118 @@
+﻿{
+	"apiUrl": "http://localhost:3000",
+	"authSecret": "Next Exchange Auth Secret",
+	"auth": {
+		"user": "abcd",
+		"pass": "abcd"
+	},
+	"nodemailer": {
+		"host": "smtp.mailgun.org",
+		"port": 587,
+		"secure": false,
+		"auth": {
+			"user": "",
+			"pass": ""
+		},
+		"from": "info@next.exchange",
+		"from_name": "NEXT.exchange",
+		"to": ["dev@next.exchange"]
+	},
+	"mailgun": {
+		"auth": {
+			"api_key": "",
+			"domain": ""
+		},
+		"to": "dev@next.exchange"
+	},
+	"allowedIPs" : ["localhost", "127.0.0.1"],
+	"nodeServer": {
+		"btc": {
+			"rpc": "http://18.232.3.115:8332",
+			"rpcAuth": {
+				"user": "user",
+				"pass": "pass"
+			}
+		},
+      "ripple":{
+		  "rpc" : "wss://s2.ripple.com:443",
+		  "rpcAuth": {
+			"user": "",
+			"pass": ""
+		}
+	  },
+	  "digibytes":{
+		"rpc": "http://51.159.4.156:14022",
+	    "rpcAuth":{
+		  "user":"user",
+		  "pass":"pass"
+	    }
+	  },
+    "dash":{
+	  "rpc": "http://51.159.4.156:8666",
+	  "rpcAuth":{
+	  "user":"user",
+	  "pass":"pass"
+	}
+	},
+	"ciredo":{
+	  "rpc": "http://localhost:14024",
+	  "rpcAuth":{
+	  "user":"user",
+	  "pass":"pass"
+	}
+	},
+	"egulden":{
+	  "rpc": "http://51.159.4.156:21016",
+	  "rpcAuth":{
+	  "user":"user",
+	  "pass":"pass"
+	}
+	},
+	"vites":{
+	  "rpc": "http://51.159.4.156:14025",
+	  "rpcAuth":{
+	  "user":"user",
+	  "pass":"pass"
+	}
+	},
+	"etn":{
+	  "rpc": "http://51.159.4.156:3132/json_rpc",	
+	  "rpcAuth":{
+	  "user":"",
+	  "pass":""
+	}
+	},
+	"NEXT":{
+	  "rpc": "http://localhost:10001",
+	  "rpcAuth":{
+	  "user":"main",
+	  "pass":"main"
+	}
+	},
+  "eth":{
+	  "rpc": "http://localhost:8545",
+	  "rpcAuth":{
+	  "user":"",
+	  "pass":""
+	}
+},
+"nlc2":{
+	"rpc": "http://localhost:10002",
+	"rpcAuth":{
+	"user":"NoLimitCoinrpc",
+	"pass":"68A3WAS7bZHZ9ACHxnjVmTjM7whnRwpcv6Wuo9F6CZ4r"
+  }
+}
+},
+	"encryptOptions": {
+		"key":"d10cf0974399f0b495e3addc615ed0cd",
+		"length": 16
+	},
+	"gasFee": {
+		"btc": 0.0000001,
+		"etn": 0.01,
+		"NEXT": 0.001,
+		"NLC2" :  0.001
+	},
+	"txLimit": 10
+}

@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	h1= title
+	#status
+		if status
+			ol.node-status-container
+				each val in status
+					if val.status
+						li.green= val.coin + ': Running up'
+					else
+						li.red= val.coin + ': Down'
+		else
+			h2.red There may unexpected errors, please reload this page again.
