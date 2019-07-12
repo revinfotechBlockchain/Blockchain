@@ -1,0 +1,18 @@
+{
+    "title": "AfterMath Island",
+    "type": "Assets",
+    "assets": {
+        "name": {
+            "type": "string",
+            "description": "GENESIS"
+        },
+        "description": {
+            "type": "string",
+            "description": "This is a genesis island coin"
+        },
+        "image": {
+            "type": "string",
+            "description": "https://file.globalupload.io/UTMNZlxudv.png"
+        }
+    }
+}

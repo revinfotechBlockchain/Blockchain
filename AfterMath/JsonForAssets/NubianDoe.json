@@ -1,0 +1,18 @@
+{
+    "title": "AfterMath Island",
+    "type": "Assets",
+    "assets": {
+        "name": {
+            "type": "string",
+            "description": "Nubian Doe"
+        },
+        "description": {
+            "type": "string",
+            "description": "Produces 1 cube manure per day, ½ jar milk per day. Requires 2 corn or feed per day. 30 day breeding period. 15 day breeding cool down after kid birth. 500 lifetime births."
+        },
+        "image": {
+            "type": "string",
+            "description": "http://devadmin.playaftermath.com/assets/images/contract/Nubian-Doe.png"
+        }
+    }
+}

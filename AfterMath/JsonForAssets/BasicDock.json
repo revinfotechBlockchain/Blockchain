@@ -1,0 +1,18 @@
+{
+    "title": "AfterMath Island",
+    "type": "Assets",
+    "assets": {
+        "name": {
+            "type": "string",
+            "description": "Basic Dock"
+        },
+        "description": {
+            "type": "string",
+            "description": "Uses 200 squares community land space & over water space. Allows visitors and imports from other islands. Community building."
+        },
+        "image": {
+            "type": "string",
+            "description": "http://devadmin.playaftermath.com/assets/images/contract/Basic-Dock.png"
+        }
+    }
+}

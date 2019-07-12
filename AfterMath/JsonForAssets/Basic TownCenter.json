@@ -1,0 +1,18 @@
+{
+    "title": "AfterMath Island",
+    "type": "Assets",
+    "assets": {
+        "name": {
+            "type": "string",
+            "description": "Basic Town Center"
+        },
+        "description": {
+            "type": "string",
+            "description": "Uses 2500 squares of community space. Community management and 10,000 cubes community storage."
+        },
+        "image": {
+            "type": "string",
+            "description": "http://devadmin.playaftermath.com/assets/images/contract/Basic-Town-Center.png"
+        }
+    }
+}

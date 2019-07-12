@@ -1,0 +1,18 @@
+{
+    "title": "AfterMath Island",
+    "type": "Assets",
+    "assets": {
+        "name": {
+            "type": "string",
+            "description": "Basic Greenhouse"
+        },
+        "description": {
+            "type": "string",
+            "description": "Uses 500 squares of space. Grows 500 squares of crops.10% crop growth production boost. "
+        },
+        "image": {
+            "type": "string",
+            "description": "http://devadmin.playaftermath.com/assets/images/contract/Basic-Greenhouse.png"
+        }
+    }
+}

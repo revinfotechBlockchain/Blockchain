@@ -1,0 +1,18 @@
+{
+    "title": "AfterMath Island",
+    "type": "Assets",
+    "assets": {
+        "name": {
+            "type": "string",
+            "description": "Angus Cow"
+        },
+        "description": {
+            "type": "string",
+            "description": "Produces 2 cubes manure per day, 1 jar milk per day. Requires 5 corn or feed per 24 hours. 60 day breeding period. 30 day cool down after calf birth. 500 lifetime births."
+        },
+        "image": {
+            "type": "string",
+            "description": "http://devadmin.playaftermath.com/assets/images/contract/Angus-Cow.png"
+        }
+    }
+}

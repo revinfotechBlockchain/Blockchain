@@ -1,0 +1,18 @@
+{
+    "title": "AfterMath Island",
+    "type": "Assets",
+    "assets": {
+        "name": {
+            "type": "string",
+            "description": "REFUGE"
+        },
+        "description": {
+            "type": "string",
+            "description": "This is a refuge island coin"
+        },
+        "image": {
+            "type": "string",
+            "description": "https://file.globalupload.io/yXm6LfdkVe.png"
+        }
+    }
+}

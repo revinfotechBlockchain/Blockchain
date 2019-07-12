@@ -1,0 +1,18 @@
+{
+    "title": "AfterMath Island",
+    "type": "Assets",
+    "assets": {
+        "name": {
+            "type": "string",
+            "description": "Basic Barracks"
+        },
+        "description": {
+            "type": "string",
+            "description": "Uses 2500 squares of space. Houses 100 troops."
+        },
+        "image": {
+            "type": "string",
+            "description": "http://devadmin.playaftermath.com/assets/images/contract/Basic-Barracks.png"
+        }
+    }
+}

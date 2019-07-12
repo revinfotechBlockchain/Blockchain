@@ -1,0 +1,18 @@
+{
+    "title": "AfterMath Island",
+    "type": "Assets",
+    "assets": {
+        "name": {
+            "type": "string",
+            "description": "Bantam Hen"
+        },
+        "description": {
+            "type": "string",
+            "description": "Produces 1 cube manure per day, 1 egg per day. Requires 1 corn or feed . 30 minute breeding cool down after egg is collected. Unlimited lifetime egg production."
+        },
+        "image": {
+            "type": "string",
+            "description": "http://devadmin.playaftermath.com/assets/images/contract/Bantam-Hen.png"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "title": "AfterMath Island",
+    "type": "Assets",
+    "assets": {
+        "name": {
+            "type": "string",
+            "description": "Brahama Bull"
+        },
+        "description": {
+            "type": "string",
+            "description": "Produces 3 cubes manure per day. Requires 6 corn or feed per 24 hours. 24 hour breeding cool down."
+        },
+        "image": {
+            "type": "string",
+            "description": "http://devadmin.playaftermath.com/assets/images/contract/Brahama-Bull.png"
+        }
+    }
+}

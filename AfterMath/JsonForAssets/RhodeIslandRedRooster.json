@@ -1,0 +1,18 @@
+{
+    "title": "AfterMath Island",
+    "type": "Assets",
+    "assets": {
+        "name": {
+            "type": "string",
+            "description": "Rhode Island Red Rooster"
+        },
+        "description": {
+            "type": "string",
+            "description": "Produces 1 cube manure per day. Requires 1 corn or feed per 24 hours. 1 hour breeding cool down."
+        },
+        "image": {
+            "type": "string",
+            "description": "http://devadmin.playaftermath.com/assets/images/contract/Rhode-Island-Red-Rooster.png"
+        }
+    }
+}
